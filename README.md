@@ -5,11 +5,15 @@
 
 </h3>
 
-## <a href="#-preview"><img src="./assets/icon_0091.png" height="16" /></a> Preview
+<a name="preview"></a>
+
+## <a href="#preview"><img src="./assets/icon_0091.png" height="16" /></a> Preview
 
 ![Preview](./assets/preview_25-ji.png)
 
-## <a href="#-installation"><img src="./assets/icon_0071.png" height="16" /></a> Installation
+<a name="installation"></a>
+
+## <a href="#installation"><img src="./assets/icon_0071.png" height="16" /></a> Installation
 
 1. Clone the repository:
 
@@ -41,6 +45,8 @@
 
     According to where you put theme files.
 
+<a name="step-update-grub"></a>
+
 5. Update grub:
 
     ```shell
@@ -53,7 +59,9 @@
     sudo grub2-mkconfig -o /boot/grub2/grub.cfg
     ```
 
-## <a href="#-grub-configuration"><img src="./assets/icon_0014.png" height="16" /></a> Grub configuration
+<a name="grub-configuration"></a>
+
+## <a href="#grub-configuration"><img src="./assets/icon_0014.png" height="16" /></a> Grub configuration
 
 Comment or uncomment to fit the following configuration in `/etc/default/grub`:
 
@@ -68,17 +76,21 @@ If you use theme different from your screen resolution, it's best to set `GRUB_G
 GRUB_GFXMODE=1920x1080
 ```
 
-Remember to update grub after any modification _(see STEP 5 in Section [Installation](#-installation))_.
+Remember to update grub after any modification _(see [STEP 5](#step-update-grub) in Section [Installation](#installation))_.
 
-## <a href="#-thanks--references"><img src="./assets/icon_0034.png" height="16" /></a> Thanks & References
+<a name="thanks-references"></a>
+
+## <a href="#thanks-references"><img src="./assets/icon_0034.png" height="16" /></a> Thanks & References
 
 - [catppuccin/grub](https://github.com/catppuccin/grub)
 - [vinceliuice/grub2-themes](https://github.com/vinceliuice/grub2-themes)
 
 <div align="center">
 
+<a name="copyright"></a>
+
 <p align="center">
-<a href="#"><img src="https://raw.githubusercontent.com/Cnily03/Cnily03/refs/heads/main/images/sekai-spliter.svg" height="5px" alt="spliter" /></a>
+<a href="#copyright"><img src="https://raw.githubusercontent.com/Cnily03/Cnily03/refs/heads/main/images/sekai-spliter.svg" height="5px" alt="spliter" /></a>
 </p>
 
 <p align="center">
