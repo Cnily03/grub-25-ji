@@ -23,7 +23,7 @@
 
 2. Repalce according to your resolution (optional):
 
-    The default theme is best suited for a resolution of **1920x1080**. for other resolutions, you can copy files from [patches/] directory:
+    The default theme is best suited for a resolution of **1920x1080**. for other resolutions, you can copy files from [patches/](patches/) directory:
 
     ```shell
     sudo cp -r patches/<resolution>/* theme-25-ji/
